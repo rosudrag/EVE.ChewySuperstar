@@ -6,6 +6,8 @@ D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar.Main\ChewySuperstar.
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar.Main\ChewySuperstar.Main\obj\Debug\ChewySuperstar.Main.csprojResolveAssemblyReference.cache
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar.Main\ChewySuperstar.Main\obj\Debug\ChewySuperstar.Main.exe
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar.Main\ChewySuperstar.Main\obj\Debug\ChewySuperstar.Main.pdb
+D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main\obj\Debug\ChewySuperstar.Main.exe
+D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main\obj\Debug\ChewySuperstar.Main.pdb
+C:\Program Files (x86)\InnerSpace\.NET Programs\ChewySuperstar.Main.exe.config
 C:\Program Files (x86)\InnerSpace\.NET Programs\ChewySuperstar.Main.exe
 C:\Program Files (x86)\InnerSpace\.NET Programs\ChewySuperstar.Main.pdb
-C:\Program Files (x86)\InnerSpace\.NET Programs\ChewySuperstar.Main.exe.config
