@@ -8,6 +8,7 @@ namespace ChewySuperstar.Main
         {
             var defaultAction = new DefaultAction();
             ActionScheduler = new OnFrameScheduler(defaultAction, 60);
+            ActionScheduler.Schedule(new DScanAction());
         }
 
         private OnFrameScheduler ActionScheduler { get; set; }

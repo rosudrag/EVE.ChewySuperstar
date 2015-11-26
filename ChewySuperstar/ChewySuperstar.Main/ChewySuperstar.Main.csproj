@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{961CF40F-8F1B-4B09-995B-A58613A0C0B5}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChewySuperstar.Main</RootNamespace>
     <AssemblyName>ChewySuperstar.Main</AssemblyName>
@@ -51,11 +51,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ISXEVEWrapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=103485bb2d98b2ec, processorArchitecture=MSIL">
-      <HintPath>..\..\..\ISXEVEWrapperReleaseBuild\ISXEVEWrapper.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Lavish.InnerSpace, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9029a3ab4cbe108d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\ISXEVEWrapperReleaseBuild\Lavish.InnerSpace.dll</HintPath>
@@ -76,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DefaultAction.cs" />
+    <Compile Include="DScanAction.cs" />
     <Compile Include="EVEAction.cs" />
     <Compile Include="EVEBootstrap.cs" />
     <Compile Include="IEVEAction.cs" />
@@ -99,6 +95,13 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ISXEVEWrapper\EVE.ISXEVE.csproj">
+      <Project>{a9583204-c40d-4496-bb62-0f9546e5d613}</Project>
+      <Name>EVE.ISXEVE</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

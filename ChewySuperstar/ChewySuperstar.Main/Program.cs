@@ -1,5 +1,7 @@
 ﻿using System;
+using EVE.ISXEVE.DataTypes;
 using InnerSpaceAPI;
+using LavishVMAPI;
 
 namespace ChewySuperstar.Main
 {

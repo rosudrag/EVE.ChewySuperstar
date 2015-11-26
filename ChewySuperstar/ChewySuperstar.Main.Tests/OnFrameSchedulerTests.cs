@@ -41,9 +41,12 @@ namespace ChewySuperstar.Main.Tests
 
         [Test]
         //To do implement extra eve actions and test scheduler executes them
-        public void SchedulerCanExecuteOtherEVEActions()
+        public void SchedulerCanExecuteDScanAction()
         {
-            
+            var scheduler = new OnFrameScheduler(defaultAction, defaultActionFrameNumber);
+            var dscanAction = new DScanAction();
+            scheduler.Schedule(dscanAction);
+            Assert.Greater(scheduler.ScheduledActions(), 0);
         }
     }
 }
