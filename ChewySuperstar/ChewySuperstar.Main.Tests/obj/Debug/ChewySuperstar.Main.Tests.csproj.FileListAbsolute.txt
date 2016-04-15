@@ -13,3 +13,15 @@ D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.csprojResolveAssemblyReference.cache
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.dll
 D:\Development 2.0\EVE\ISXEVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.csprojResolveAssemblyReference.cache
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\obj\Debug\ChewySuperstar.Main.Tests.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Main.Tests.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Main.Tests.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Main.exe
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\nunit.framework.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ISXEVEWrapper.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Main.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\nunit.framework.xml
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ISXEVEWrapper.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ISXEVEWrapper.xml

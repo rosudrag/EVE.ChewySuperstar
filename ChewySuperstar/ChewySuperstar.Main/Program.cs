@@ -1,5 +1,5 @@
 ﻿using System;
-using EVE.ISXEVE.DataTypes;
+using DryIoc;
 using InnerSpaceAPI;
 using LavishVMAPI;
 
@@ -10,6 +10,8 @@ namespace ChewySuperstar.Main
         [STAThread]
         private static void Main()
         {
+            var container = BootstrapIoCContainer();
+
             Console.WriteLine("Hooking up to game client.");
 
             var gameBootstrapper = new EVEBootstrap();
@@ -20,6 +22,13 @@ namespace ChewySuperstar.Main
             Console.ReadLine();
 
             InnerSpace.Echo("Program ended.");
+        }
+
+        private static IContainer BootstrapIoCContainer()
+        {
+            var container = new Container();
+
+            return container;
         }
     }
 }

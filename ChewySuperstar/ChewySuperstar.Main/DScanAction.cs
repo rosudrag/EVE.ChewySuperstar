@@ -1,4 +1,4 @@
-﻿using EVE.ISXEVE.DataTypes;
+﻿using EVE.ISXEVE;
 using InnerSpaceAPI;
 
 namespace ChewySuperstar.Main
