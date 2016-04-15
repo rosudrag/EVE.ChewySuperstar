@@ -9,7 +9,7 @@ namespace ChewySuperstar.Main
             var container = new Container();
 
             container.Register<IEVEBootstrap, EVEBootstrap>();
-            container.Register<IActionScheduler, EveActionScheduler>();
+            container.Register<IExecuteEVEActions, EveActionExecutor>();
 
             return container;
         }

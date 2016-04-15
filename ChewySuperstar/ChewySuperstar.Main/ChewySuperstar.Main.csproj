@@ -74,9 +74,9 @@
     <Compile Include="DScanAction.cs" />
     <Compile Include="EVEAction.cs" />
     <Compile Include="EVEBootstrap.cs" />
-    <Compile Include="IActionScheduler.cs" />
+    <Compile Include="IExecuteEVEActions.cs" />
     <Compile Include="IEVEAction.cs" />
-    <Compile Include="EVEActionScheduler.cs" />
+    <Compile Include="EveActionExecutor.cs" />
     <Compile Include="IoCBootstrapperConfiguration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

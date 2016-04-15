@@ -10,8 +10,8 @@ namespace ChewySuperstar.Main.Tests
         [Test]
         public void ClientBootstrapCanHookToGameClient()
         {
-            var actionScheduler = Substitute.For<IActionScheduler>();
-            var bootstrap = new EVEBootstrap(actionScheduler);
+            var executeEVEActions = Substitute.For<IExecuteEVEActions>();
+            var bootstrap = new EVEBootstrap(executeEVEActions);
             Assert.DoesNotThrow(bootstrap.HookToGameClient);
         }
 
@@ -20,5 +20,6 @@ namespace ChewySuperstar.Main.Tests
         {
             var container = IoCBootstrapperConfiguration.BootstrapIoCContainer();
             Assert.DoesNotThrow(() => { container.Resolve<IEVEBootstrap>(); });
+        }
     }
 }

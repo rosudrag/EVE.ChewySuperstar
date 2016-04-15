@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EVEBootstrapTests.cs" />
-    <Compile Include="EVEActionShedulerTests.cs" />
+    <Compile Include="EVEActionExecutorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

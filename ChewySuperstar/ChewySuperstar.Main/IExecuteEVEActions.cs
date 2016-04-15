@@ -1,6 +1,6 @@
 namespace ChewySuperstar.Main
 {
-    public interface IActionScheduler
+    public interface IExecuteEVEActions
     {
         void Schedule(IEVEAction action);
         void Execute();

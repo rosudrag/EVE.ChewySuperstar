@@ -9,17 +9,15 @@ namespace ChewySuperstar.Main
 
     public class EVEBootstrap : IEVEBootstrap
     {
-        private readonly IActionScheduler _actionScheduler;
+        private readonly IExecuteEVEActions _executeEVEActions;
 
-        public EVEBootstrap(IActionScheduler actionScheduler)
+        public EVEBootstrap(IExecuteEVEActions executeEVEActions)
         {
-            _actionScheduler = actionScheduler;
+            _executeEVEActions = executeEVEActions;
             //var defaultAction = new DefaultAction();
-            //ActionScheduler = new EveActionScheduler(defaultAction, 60);
+            //ActionScheduler = new EveActionExecutor(defaultAction, 60);
             //ActionScheduler.Schedule(new DScanAction());
         }
-
-        private EveActionScheduler ActionScheduler { get; set; }
 
         public void HookToGameClient()
         {
@@ -29,7 +27,7 @@ namespace ChewySuperstar.Main
 
         private void OnFrame(object sender, LSEventArgs e)
         {
-            ActionScheduler.Execute();
+            _executeEVEActions.Execute();
         }
     }
 }

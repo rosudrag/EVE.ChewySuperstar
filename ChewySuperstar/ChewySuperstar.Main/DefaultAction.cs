@@ -10,5 +10,10 @@ namespace ChewySuperstar.Main
         protected override void ExecuteAction()
         {
         }
+
+        public bool? HasExecutedSuccesfully()
+        {
+            return ExecuteStatus;
+        }
     }
 }
