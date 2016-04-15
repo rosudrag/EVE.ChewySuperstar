@@ -1,7 +1,6 @@
 ﻿using System;
 using DryIoc;
 using InnerSpaceAPI;
-using LavishVMAPI;
 
 namespace ChewySuperstar.Main
 {

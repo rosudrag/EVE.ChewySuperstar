@@ -1,8 +1,7 @@
 ﻿using System;
 using InnerSpaceAPI;
-using LavishVMAPI;
 
-namespace ChewySuperstar.Main
+namespace ChewySuperstar.Main.Actions
 {
     public abstract class EVEAction : IEVEAction
     {

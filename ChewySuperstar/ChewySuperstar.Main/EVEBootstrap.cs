@@ -14,9 +14,6 @@ namespace ChewySuperstar.Main
         public EVEBootstrap(IExecuteEVEActions executeEVEActions)
         {
             _executeEVEActions = executeEVEActions;
-            //var defaultAction = new DefaultAction();
-            //ActionScheduler = new EveActionExecutor(defaultAction, 60);
-            //ActionScheduler.Schedule(new DScanAction());
         }
 
         public void HookToGameClient()

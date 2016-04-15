@@ -1,7 +1,7 @@
 ﻿using EVE.ISXEVE;
 using InnerSpaceAPI;
 
-namespace ChewySuperstar.Main
+namespace ChewySuperstar.Main.Actions
 {
     public class DScanAction : EVEAction
     {

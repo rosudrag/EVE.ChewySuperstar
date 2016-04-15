@@ -1,4 +1,5 @@
-﻿using DryIoc;
+﻿using ChewySuperstar.Main.Logic;
+using DryIoc;
 
 namespace ChewySuperstar.Main
 {
@@ -10,6 +11,7 @@ namespace ChewySuperstar.Main
 
             container.Register<IEVEBootstrap, EVEBootstrap>();
             container.Register<IExecuteEVEActions, EveActionExecutor>();
+            container.Register<IQuickAutopilotLogic, QuickAutopilotLogic>();
 
             return container;
         }

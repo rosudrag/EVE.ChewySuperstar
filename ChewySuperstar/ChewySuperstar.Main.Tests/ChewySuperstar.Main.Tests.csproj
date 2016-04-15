@@ -52,6 +52,7 @@
     <Compile Include="EVEBootstrapTests.cs" />
     <Compile Include="EVEActionExecutorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickAutopilotLogicTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

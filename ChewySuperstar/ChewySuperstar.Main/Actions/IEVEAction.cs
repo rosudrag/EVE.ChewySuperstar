@@ -1,4 +1,4 @@
-﻿namespace ChewySuperstar.Main
+﻿namespace ChewySuperstar.Main.Actions
 {
     public interface IEVEAction
     {

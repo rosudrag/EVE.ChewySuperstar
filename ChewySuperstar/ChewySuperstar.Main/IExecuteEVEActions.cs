@@ -1,3 +1,5 @@
+using ChewySuperstar.Main.Actions;
+
 namespace ChewySuperstar.Main
 {
     public interface IExecuteEVEActions

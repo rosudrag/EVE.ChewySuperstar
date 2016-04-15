@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using ChewySuperstar.Main.Actions;
+using NUnit.Framework;
 
 namespace ChewySuperstar.Main.Tests
 {

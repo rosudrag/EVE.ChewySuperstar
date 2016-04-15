@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ChewySuperstar.Main.Actions;
 using LavishVMAPI;
 
 namespace ChewySuperstar.Main
@@ -7,6 +8,7 @@ namespace ChewySuperstar.Main
     {
         public EveActionExecutor()
         {
+            CurrentFrameCount = 0;
             Actions = new List<IEVEAction>();
         }
 

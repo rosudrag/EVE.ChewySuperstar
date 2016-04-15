@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{961CF40F-8F1B-4B09-995B-A58613A0C0B5}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ChewySuperstar.Main</RootNamespace>
     <AssemblyName>ChewySuperstar.Main</AssemblyName>
@@ -70,14 +70,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefaultAction.cs" />
-    <Compile Include="DScanAction.cs" />
-    <Compile Include="EVEAction.cs" />
+    <Compile Include="Actions\DefaultAction.cs" />
+    <Compile Include="Actions\DScanAction.cs" />
+    <Compile Include="Actions\EVEAction.cs" />
     <Compile Include="EVEBootstrap.cs" />
     <Compile Include="IExecuteEVEActions.cs" />
-    <Compile Include="IEVEAction.cs" />
+    <Compile Include="Actions\IEVEAction.cs" />
     <Compile Include="EveActionExecutor.cs" />
     <Compile Include="IoCBootstrapperConfiguration.cs" />
+    <Compile Include="Logic\IQuickAutopilotLogic.cs" />
+    <Compile Include="Logic\QuickAutopilotLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
