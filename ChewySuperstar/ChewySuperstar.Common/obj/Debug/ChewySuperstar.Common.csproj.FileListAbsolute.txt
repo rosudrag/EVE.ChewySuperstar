@@ -1,0 +1,5 @@
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Common\bin\Debug\ChewySuperstar.Common.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Common\bin\Debug\ChewySuperstar.Common.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Common\obj\Debug\ChewySuperstar.Common.csprojResolveAssemblyReference.cache
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Common\obj\Debug\ChewySuperstar.Common.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Common\obj\Debug\ChewySuperstar.Common.pdb

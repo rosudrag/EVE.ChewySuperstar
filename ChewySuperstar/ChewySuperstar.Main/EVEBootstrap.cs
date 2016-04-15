@@ -2,21 +2,24 @@ using LavishScriptAPI;
 
 namespace ChewySuperstar.Main
 {
-    public interface IAttachToGameFrameBootstrapper
+    public interface IEVEBootstrap
     {
         void HookToGameClient();
     }
 
-    public class EVEBootstrap : IAttachToGameFrameBootstrapper
+    public class EVEBootstrap : IEVEBootstrap
     {
-        public EVEBootstrap()
+        private readonly IActionScheduler _actionScheduler;
+
+        public EVEBootstrap(IActionScheduler actionScheduler)
         {
+            _actionScheduler = actionScheduler;
             //var defaultAction = new DefaultAction();
-            //ActionScheduler = new OnFrameScheduler(defaultAction, 60);
+            //ActionScheduler = new EveActionScheduler(defaultAction, 60);
             //ActionScheduler.Schedule(new DScanAction());
         }
 
-        private OnFrameScheduler ActionScheduler { get; set; }
+        private EveActionScheduler ActionScheduler { get; set; }
 
         public void HookToGameClient()
         {

@@ -74,8 +74,10 @@
     <Compile Include="DScanAction.cs" />
     <Compile Include="EVEAction.cs" />
     <Compile Include="EVEBootstrap.cs" />
+    <Compile Include="IActionScheduler.cs" />
     <Compile Include="IEVEAction.cs" />
-    <Compile Include="OnFrameScheduler.cs" />
+    <Compile Include="EVEActionScheduler.cs" />
+    <Compile Include="IoCBootstrapperConfiguration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -101,6 +103,10 @@
       <Project>{a9583204-c40d-4496-bb62-0f9546e5d613}</Project>
       <Name>EVE.ISXEVE</Name>
       <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ChewySuperstar.Common\ChewySuperstar.Common.csproj">
+      <Project>{88d9261e-3859-427c-9198-ea09de337551}</Project>
+      <Name>ChewySuperstar.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

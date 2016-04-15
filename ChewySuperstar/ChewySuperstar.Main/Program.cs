@@ -10,11 +10,11 @@ namespace ChewySuperstar.Main
         [STAThread]
         private static void Main()
         {
-            var container = BootstrapIoCContainer();
+            var container = IoCBootstrapperConfiguration.BootstrapIoCContainer();
 
             Console.WriteLine("Hooking up to game client.");
 
-            var gameBootstrapper = new EVEBootstrap();
+            var gameBootstrapper = container.Resolve<IEVEBootstrap>();
             gameBootstrapper.HookToGameClient();
 
             Console.WriteLine("Game hook initialised.");
@@ -22,13 +22,6 @@ namespace ChewySuperstar.Main
             Console.ReadLine();
 
             InnerSpace.Echo("Program ended.");
-        }
-
-        private static IContainer BootstrapIoCContainer()
-        {
-            var container = new Container();
-
-            return container;
         }
     }
 }

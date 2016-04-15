@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChewySuperstar.Main.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVE.ISXEVE", "..\..\ISXEVEWrapper\EVE.ISXEVE.csproj", "{A9583204-C40D-4496-BB62-0F9546E5D613}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{31056E9B-D95E-41CA-8BD3-F085D48D924E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChewySuperstar.Common", "ChewySuperstar.Common\ChewySuperstar.Common.csproj", "{88D9261E-3859-427C-9198-EA09DE337551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{A9583204-C40D-4496-BB62-0F9546E5D613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9583204-C40D-4496-BB62-0F9546E5D613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9583204-C40D-4496-BB62-0F9546E5D613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D9261E-3859-427C-9198-EA09DE337551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D9261E-3859-427C-9198-EA09DE337551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D9261E-3859-427C-9198-EA09DE337551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D9261E-3859-427C-9198-EA09DE337551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88D9261E-3859-427C-9198-EA09DE337551} = {31056E9B-D95E-41CA-8BD3-F085D48D924E}
 	EndGlobalSection
 EndGlobal

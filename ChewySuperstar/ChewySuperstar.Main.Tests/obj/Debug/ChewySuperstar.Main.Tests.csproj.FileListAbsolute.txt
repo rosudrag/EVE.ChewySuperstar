@@ -25,3 +25,7 @@ D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\b
 D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\nunit.framework.xml
 D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ISXEVEWrapper.pdb
 D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ISXEVEWrapper.xml
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Common.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\NSubstitute.dll
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\ChewySuperstar.Common.pdb
+D:\Development\EVE\EVE.ChewySuperstar\ChewySuperstar\ChewySuperstar.Main.Tests\bin\Debug\NSubstitute.xml

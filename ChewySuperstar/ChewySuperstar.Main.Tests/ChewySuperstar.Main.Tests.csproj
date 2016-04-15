@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.0.5797.27534, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.0.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
@@ -46,13 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EVEBootstrapTests.cs" />
-    <Compile Include="OnFrameSchedulerTests.cs" />
+    <Compile Include="EVEActionShedulerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ChewySuperstar.Common\ChewySuperstar.Common.csproj">
+      <Project>{88D9261E-3859-427C-9198-EA09DE337551}</Project>
+      <Name>ChewySuperstar.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ChewySuperstar.Main\ChewySuperstar.Main.csproj">
       <Project>{961CF40F-8F1B-4B09-995B-A58613A0C0B5}</Project>
       <Name>ChewySuperstar.Main</Name>

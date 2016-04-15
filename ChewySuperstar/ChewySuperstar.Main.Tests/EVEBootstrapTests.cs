@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using DryIoc;
+using NSubstitute;
+using NUnit.Framework;
 
 namespace ChewySuperstar.Main.Tests
 {
@@ -6,16 +8,17 @@ namespace ChewySuperstar.Main.Tests
     public class EVEBootstrapTests
     {
         [Test]
-        public void CreatingClientBootstrapIsSuccesful()
+        public void ClientBootstrapCanHookToGameClient()
         {
-            Assert.DoesNotThrow(() => { new EVEBootstrap(); });
+            var actionScheduler = Substitute.For<IActionScheduler>();
+            var bootstrap = new EVEBootstrap(actionScheduler);
+            Assert.DoesNotThrow(bootstrap.HookToGameClient);
         }
 
         [Test]
-        public void ClientBootstrapCanHookToGameClient()
+        public void IoCRegistrationIsSuccesfull()
         {
-            var bootstrap = new EVEBootstrap();
-            Assert.DoesNotThrow(bootstrap.HookToGameClient);
-        }
+            var container = IoCBootstrapperConfiguration.BootstrapIoCContainer();
+            Assert.DoesNotThrow(() => { container.Resolve<IEVEBootstrap>(); });
     }
 }

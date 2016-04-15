@@ -3,12 +3,12 @@ using LavishVMAPI;
 
 namespace ChewySuperstar.Main
 {
-    public class OnFrameScheduler
+    public class EveActionScheduler : IActionScheduler
     {
-        public OnFrameScheduler(DefaultAction defaultAction, int defaultActionFrameNumber)
+        public EveActionScheduler()
         {
-            DefaultAction = defaultAction;
-            DefaultActionFrameNumber = defaultActionFrameNumber;
+            DefaultAction = new DefaultAction();
+            DefaultActionFrameNumber = 60;
             Actions = new List<IEVEAction>();
         }
 
